@@ -1,0 +1,24 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: burlywood;
+}
+.todo-wrapper{
+    width: auto;
+    background-color: gray;
+    margin-top: 20px;
+
+}
+
+.todo-list{
+    padding: 1rem;
+}
+
+.todo-list .todo-item{
+    padding-top: 10px;
+    border-bottom: 1px dashed black;
+}
+.todo-list .todo-item .strike{
+text-decoration: line-through;
+}
